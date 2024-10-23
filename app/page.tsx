@@ -7,14 +7,7 @@ import plane from "./public/plane.jpg";
 
 
 
-function handleClickScroll(id:string) {
-  const element = document.getElementById(id);
-  
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' })
-    
-  }
-}
+
 export default function Home() {
  /* getDevs();*/
    
@@ -44,7 +37,7 @@ export default function Home() {
 
       <div id="about" className="about" >
         <h1 className="aboutme-tag"> about me</h1>
-        <li>I’m a Undergrad student at UC Berkeley studying Electrical Engineering and Computer Sciences  </li>
+        <li>Im a Undergrad student at UC Berkeley studying Electrical Engineering and Computer Sciences  </li>
         <li>I enjoy working out and playing basketball  </li>
         <li>Love traveling! </li>
         <li>D1 at binge watching show/movie </li>
