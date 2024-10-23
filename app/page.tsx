@@ -4,8 +4,8 @@ import getDevs from './lib/getDevs';
 import Image from "next/image";
 import habeebsprofile from "./public/habeeb.jpg";
 import plane from "./public/plane.jpg";
-import { scrollIntoView } from "seamless-scroll-polyfill";
-import { useRef } from 'react';
+
+
 
 function handleClickScroll(id:string) {
   const element = document.getElementById(id);
@@ -36,7 +36,7 @@ export default function Home() {
       <div className="page1" id ="home">
         <div className="welcome">
           <p> Hello! </p>
-          <p>I'm Habeeb Tiamiyu </p>
+          <p>I am Habeeb Tiamiyu </p>
         </div>
         <Image className= "beebprofile" src = {habeebsprofile} alt = "none" width ={100} height = {100}>
         </Image>
